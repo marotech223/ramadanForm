@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;500;600&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,500&display=swap');
+html{
+    direction: rtl;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin:50px auto;
+    height:80vh;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #154994;
+    background-image: linear-gradient(to right,#a3c8d8,#9ec6da,#8ebde0,#a6cdeb,#cae4df,white);
+}
+a{
+    text-decoration: none;
+}
+.list-styled{
+    list-style-type: none;
+}
+body{
+    background-color: #8ebde0;
+}
+header{
+    height: 70px;
+    width:100% ;
+    z-index: 100;
+}
+.header-content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header-content .logo{
+    width: 10%;
+    height: 90px;
+}
+.header-content .logo img{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    width: 80%;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 40px;
+
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main-img{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.main-img img{
+    width: 100%;
+    height: 100%;
+    margin-top:-140px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.heading{
+    width: 50%;
+    margin-top: 55px;
+    text-align: center;
+}
+.heading h1{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    margin-right: 30px;
+    color:#0e1f46
+}
+.heading .para{
+    margin-top: 40px ;
+    line-height: 1.5;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #4f5a65;
+}
+.para1{
+    font-size: 30px;
+    color: #0e1f46;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    line-height: 0.5;
+    font-weight: bold;
+}
+.tools{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+.tools .tool-img{
+    width: 43px;
+    height: 44px;
+}
+.tools .tool-img img{
+    width: 100%;
+    height: 100%;
+}
+.circle1{
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #cae4df;
+    top: 0;
+    left:0;
+    border-radius: 50%;
+    margin: 15px 90px;
+    z-index: -1;
+}
+.circle2{
+    position: absolute;
+    display: block;
+    width: 125px;
+    height: 125px;
+    background-color: #0a3266;
+    bottom: 0;
+    right:0;
+    border-radius: 50%;
+    margin: 15px 90px;
+    z-index: -1;
+}
